@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: engsa
+  Date: 17/04/2018
+  Time: 18:57
+  To change this template use File | Settings | File Templates.
+--%>
 <%@include file="/WEB-INF/views/template/header.jsp"%>
 
 
@@ -10,11 +17,10 @@
         </div>
 
         <h3>
-            <a href="<c:url value="/admin/productInventory" />" >Product Inventory</a>
+            <a href="<c:url value="/admin/productInventory" />">Product Inventory</a>
         </h3>
 
-        <p>Here you can view, check and modify the product inventory!</p>
+        <p> Here you can view, check and modify the product inventory </p>
 
 
         <%@include file="/WEB-INF/views/template/footer.jsp" %>
-

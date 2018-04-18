@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: engsa
+  Date: 17/04/2018
+  Time: 19:13
+  To change this template use File | Settings | File Templates.
+--%>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
 
@@ -13,7 +20,7 @@
         <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post"
                    commandName="product" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="name">Name</label> <form:errors path="productName" cssStyle="color: #ff0000;" />
+            <label for="name">Name</label>
             <form:input path="productName" id="name" class="form-Control"/>
         </div>
 
@@ -33,7 +40,7 @@
         </div>
 
         <div class="form-group">
-            <label for="price">Price</label>  <form:errors path="productPrice" cssStyle="color: #ff0000;" />
+            <label for="price">Price</label>
             <form:input path="productPrice" id="price" class="form-Control"/>
         </div>
 
@@ -54,19 +61,19 @@
         </div>
 
         <div class="form-group">
-            <label for="unitInStock">Unit In Stock</label>  <form:errors path="unitInStock"
-                                                                         cssStyle="color: #ff0000;" />
+            <label for="unitInStock">Unit In Stock</label>
             <form:input path="unitInStock" id="unitInStock" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="manufacturer">Manufacturer</label>
-            <form:input path="productManufacturer" id="manufacturer" class="form-Control"/>
+            <label for="manufacture">Manufacture</label>
+            <form:input path="productManufacture" id="manufacture" class="form-Control"/>
         </div>
 
-        <div class="form-group">
-            <label class="control-label" for="productImage">Upload Picture</label>
-            <form:input id="productImage" path="productImage" type="file" class="form:input-large" />
+        <div>
+            <div class="form-group">
+                <label class="control-label" for="productImage">Upload Picture</label>
+                <form:input id="productImage" path="productImage" type="file" class="form:input-large" />
         </div>
 
         <br><br>

@@ -1,10 +1,10 @@
 package com.emusicstore.model;
 
-import org.hibernate.validator.constraints.NotEmpty;
+
+
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
-import javax.validation.constraints.Min;
 
 @Entity
 public class Product {
@@ -12,21 +12,14 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String productId;
-
-    @NotEmpty(message = "The product name must not be null.")
-
     private String productName;
     private String productCategory;
     private String productDescription;
-
-    @Min(value = 0, message = "The product price must no be less then zero.")
     private double productPrice;
     private String productCondition;
     private String productStatus;
-
-    @Min(value = 0, message = "The product unit must not be less than zero.")
     private int unitInStock;
-    private String productManufacturer;
+    private String productManufacture;
 
     @Transient
     private MultipartFile productImage;
@@ -95,12 +88,12 @@ public class Product {
         this.unitInStock = unitInStock;
     }
 
-    public String getProductManufacturer() {
-        return productManufacturer;
+    public String getProductManufacture() {
+        return productManufacture;
     }
 
-    public void setProductManufacturer(String productManufacturer) {
-        this.productManufacturer = productManufacturer;
+    public void setProductManufacture(String productManufacture) {
+        this.productManufacture = productManufacture;
     }
 
     public MultipartFile getProductImage() {

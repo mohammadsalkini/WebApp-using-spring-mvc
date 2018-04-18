@@ -1,3 +1,13 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<%--
+  Created by IntelliJ IDEA.
+  User: engsa
+  Date: 17/04/2018
+  Time: 14:07
+  To change this template use File | Settings | File Templates.
+--%>
+<!-- FOOTER -->
 <!-- FOOTER -->
 <footer>
     <p class="pull-right"><a href="#">Back to top</a></p>
