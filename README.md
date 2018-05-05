@@ -1,1 +1,1 @@
-# Website-using-spring-mvc
+# Web-app-using-spring-mvc
