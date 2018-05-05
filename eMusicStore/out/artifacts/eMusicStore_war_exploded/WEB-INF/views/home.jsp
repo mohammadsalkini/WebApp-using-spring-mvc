@@ -5,13 +5,13 @@
   Time: 17:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
+
 
 
 <!-- Carousel
 ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -20,29 +20,45 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img class="first-slide home-image" src="<c:url value="/resources/images/back1.jpg"/>" alt="First slide">
+            <img class="first-slide home-image"
+                 src="<c:url value="/resources/images/back1.jpg" />"
+                 alt="First slide">
+
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Welcome to Alsalkini's Store</h1>
-                    <p>Here you can browse and buy Instruments, Records and music related Accessories. Order now for your Amazing New Kit</p>
+                    <h1>Welcome to AlSalkini's Music Store</h1>
+
+                    <p>Here you can browse and buy Instruments, Records and music related Accessories. Order Now for
+                        Your Amazing New Kit!</p>
+
                 </div>
             </div>
         </div>
         <div class="item">
-            <img class="second-slide home-image" src="<c:url value="/resources/images/back2.jpg"/>" alt="Second slide">
+            <img class="second-slide home-image"
+                 src="<c:url value="/resources/images/back2.jpg" />"
+                 alt="Second slide">
+
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Facts You Should Know About Music</h1>
-                    <p>Music brings joy, to all of our hearts. It's one of those, emotional arts.</p>
+
+                    <p>Music brings joy, to all of our hearts, It's one of those, emotional arts.</p>
+
                 </div>
             </div>
         </div>
         <div class="item">
-            <img class="third-slide home-image" src="<c:url value="/resources/images/back3.jpg"/>" alt="Third slide">
+            <img class="third-slide home-image"
+                 src="<c:url value="/resources/images/back3.jpg" />"
+                 alt="Third slide">
+
             <div class="container">
                 <div class="carousel-caption">
                     <h1>It's A Jazz Affair</h1>
+
                     <p>Through ups and downs, Somehow I manage to survive in life.</p>
+
                 </div>
             </div>
         </div>
@@ -55,7 +71,8 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div><!-- /.carousel -->
+</div>
+<!-- /.carousel -->
 
 
 <!-- Marketing messaging and featurettes
@@ -85,23 +102,6 @@
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+</div>
 
-    <!-- FOOTER -->
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-
-</div><!-- /.container -->
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery ||
-document.write('<script src="<c:url value="/resources/js/jquery-1.11.3.min.js" />"><\/script>')</script>
-<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
-
-</body>
-</html>
+<%@include file="/WEB-INF/views/template/footer.jsp" %>
