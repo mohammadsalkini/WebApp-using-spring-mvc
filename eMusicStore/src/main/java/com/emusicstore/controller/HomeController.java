@@ -21,7 +21,6 @@ import java.util.List;
 
 @Controller
 public class HomeController {
-
     private Path path;
 
     @Autowired
