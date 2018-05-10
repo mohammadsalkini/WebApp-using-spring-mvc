@@ -34,4 +34,4 @@ The web application was built by using:
     + https://www.jetbrains.com/idea/download
 4. **H2 Database:**
     + http://www.h2database.com/html/download.html
-    +Every time the application is run, the H2 database console should be also run.
+    + Every time the application is run, the H2 database console should be also run.
