@@ -24,7 +24,7 @@ A web application to sell music instruments and equipments.
     + H2
 
 ## E-Music Store:
-The web application was built by using:
+The web application was built using:
 1. **Java JDK:**
     + http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
     + Sitting up the Java variable environment.
