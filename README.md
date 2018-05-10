@@ -2,13 +2,13 @@
 
 ## Purpose:
 
-A web application to sell music instruments and equepments.
+A web application to sell music instruments and equipments.
 
 ## User Stories:
 
-As a guest, I can view products, register as customer and login.
-As a customer, I can add product to the cart, review the order info, submit the order and logout.
-As an admin, I can view customers list and modify the products.
++ As a guest, I can view products, register as customer and login.
++ As a customer, I can add product to the cart, review the order info, submit the order and logout.
++ As an admin, I can view customers list and modify the products.
 
 ## technology Stack:
 
