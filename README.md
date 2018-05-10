@@ -27,8 +27,11 @@ As an admin, I can view customers list and modify the products.
 The web application was built by using:
 1. **Java JDK:**
     + http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-    + Sitting up the Java variable environment
+    + Sitting up the Java variable environment.
 2. **Tomcat:**
     + http://tomcat.apache.org/download-80.cgi
-2. **Intellij ultimate:**
+3. **Intellij ultimate:**
     + https://www.jetbrains.com/idea/download
+4. **H2 Database:**
+    + http://www.h2database.com/html/download.html
+    +Every time the application is run, the H2 database console should be also run.
