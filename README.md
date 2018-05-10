@@ -2,7 +2,7 @@
 
 ## Purpose:
 
-A web application to sell music instruments and equepments.
+A web application to sell music instruments and equipments.
 
 ## User Stories:
 
