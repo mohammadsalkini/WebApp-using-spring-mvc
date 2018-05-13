@@ -18,7 +18,6 @@ A web application to sell music instruments and equipments.
     + API
 2. **Frontend:**
     + Bootstrap
-    + Angular JS
     + Jsp
 3. **Database:**
     + H2
